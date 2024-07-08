@@ -1,0 +1,19 @@
+quantumguard/
+├── backend/
+│   ├── server.js         // Server setup and entry point
+│   ├── routes/
+│   │   ├── auth.js       // Authentication routes
+│   │   └── network.js    // Network monitoring routes
+│   ├── db.js             // Database setup (if applicable)
+│   ├── quantum.js        // Quantum computing integration
+│   └── blockchain.js     // Blockchain integration (if applicable)
+└── frontend/
+    ├── App.js            // Main entry point for frontend
+    ├── screens/
+    │   ├── AuthenticationScreen.js  // Authentication screen
+    │   ├── DashboardScreen.js      // Dashboard screen
+    │   └── SettingsScreen.js       // Settings screen
+    ├── components/       // Reusable UI components (if any)
+    ├── navigation/       // Navigation setup (if using React Navigation)
+    └── api/
+        └── api.js        // API service for frontend/backend communication
